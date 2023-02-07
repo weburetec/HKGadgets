@@ -1,6 +1,6 @@
 const baseUrl =
   process.env.NODE_ENV === "production"
-    ? "hkg-gadgets.vercel.app"
+    ? "https://livani-react.envytheme.com"
     : "http://localhost:3000";
 
 export default baseUrl;
