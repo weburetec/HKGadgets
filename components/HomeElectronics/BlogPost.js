@@ -7,7 +7,7 @@ const BlogPost = () => {
       <div className='container'>
         <div className='section-title'>
           <span className='sub-title'>Recent Post</span>
-          <h2>From The Livani Blog</h2>
+          <h2>From HK Gadgets Blog</h2>
         </div>
 
         <div className='row'>
