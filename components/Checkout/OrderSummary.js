@@ -104,7 +104,7 @@ const CheckoutForm = ({ StripeCheckout, handleCheckout, user }) => {
               </button>
             </StripeCheckout>
           ) : (
-            <Link href='/log-in'>
+            <Link href='/login'>
               <a className='default-btn'>
                 Please Login To Complete Your Order
                 <i className='flaticon-right'></i>
