@@ -22,7 +22,6 @@
     "database": "livani_83zu",
     "host": "dpg-cffnln82i3mg6p9bpddg-a.oregon-postgres.render.com",
     "port": "5432",
-    "dialect": "postgres",
-    "ssl":"true"
+    "dialect": "postgres"
   }
 }
