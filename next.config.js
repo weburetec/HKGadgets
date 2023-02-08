@@ -9,7 +9,7 @@ module.exports = {
 		JWT_SECRET: "zxcvbnmasdfghjklpoiuytrewqasdfghmnbvcxzasdfghjloiuytreqsd",
 		CLOUDINARY_URL: "https://api.cloudinary.com/v1_1/weburetec",
 		CLOUD_NAME: "weburetec",
-		UPLOAD_PRESET: "ml_default",
+		UPLOAD_PRESET: "dtdqwfix",
 	},
 	trailingSlash: true,
 };
