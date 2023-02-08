@@ -55,7 +55,7 @@ Default CSS
 =================================================*/
 $font-family1: 'Lato';
 $font-family2: 'Cabin';
-$main-color: #f53f85;
+$main-color: #00008B;
 $optional-color: #777777;
 $black-color: #000000;
 $white-color: #ffffff;
@@ -11054,7 +11054,6 @@ Products Details Area CSS
 }
 
 
-
 /*================================================
 Preloader Area CSS
 =================================================*/
@@ -11085,7 +11084,7 @@ Preloader Area CSS
 			width: 100px;
 			height: 100px;
 			border-radius: 100%;
-			background-color: #f53f85 !important;
+			background-color: #00008B !important;
 			-webkit-animation: preloader 1.3s linear infinite;
 			animation: preloader 1.3s linear infinite;
 			&:last-child {
