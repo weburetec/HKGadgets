@@ -27,7 +27,7 @@ const Footer = () => {
 									</li>
 									<li>
 										<i className="bx bx-envelope"></i>
-										hello@livani.com
+										contact@hkgadgets.com
 									</li>
 								</ul>
 							</div>
@@ -180,12 +180,12 @@ const Footer = () => {
 						<div className="col-lg-6 col-md-6">
 							<p>
 								Copyright <i className="bx bx-copyright"></i>
-								{currentYear} Livani Designed By{" "}
+								{currentYear} {" "}
 								<a
-									href="https://envytheme.com/"
+									href="https://hkgadgets.com/"
 									target="_blank"
 								>
-									EnvyTheme
+									Hk Gadgets
 								</a>{" "}
 								- All rights reserved.
 							</p>
