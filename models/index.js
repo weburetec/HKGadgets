@@ -12,15 +12,16 @@ import Order from "./order";
 import OrderItem from "./orderitem";
 
 let sequelize;
+console.log(config, "config");
 if (config.use_env_variable) {
-	sequelize = new Sequelize(process.env[config.use_env_variable], config);
+  sequelize = new Sequelize(process.env[config.use_env_variable], config);
 } else {
-	sequelize = new Sequelize(
-		config.database,
-		config.username,
-		config.password,
-		config
-	);
+  sequelize = new Sequelize(
+    config.database,
+    config.username,
+    config.password,
+    config
+  );
 }
 
 db.users = User(sequelize, Sequelize);
@@ -40,9 +41,9 @@ db.products.belongsTo(db.users, { as: "users", foreignKey: "userId" });
 
 db.orders.belongsTo(db.users, { as: "users", foreignKey: "userId" });
 db.users.hasMany(db.orders, {
-	onDelete: "cascade",
-	as: "users",
-	foreignKey: "userId",
+  onDelete: "cascade",
+  as: "users",
+  foreignKey: "userId",
 });
 
 db.orders.hasMany(db.orderitems, { as: "ordersItem", foreignKey: "orderId" });
@@ -50,8 +51,8 @@ db.orderitems.belongsTo(db.orders, { as: "orders", foreignKey: "orderId" });
 
 db.products.hasMany(db.orderitems, { as: "products", foreignKey: "productId" });
 db.orderitems.belongsTo(db.products, {
-	as: "products",
-	foreignKey: "productId",
+  as: "products",
+  foreignKey: "productId",
 });
 
 db.sequelize = sequelize;
