@@ -47,7 +47,7 @@ const InstagramFeed = () => {
       <div className='container-fluid'>
         <div className='instagram-title'>
           <a href='#' target='_blank'>
-            <i className='bx bxl-instagram'></i> Follow us on @livani
+            <i className='bx bxl-instagram'></i> Follow us on @HKGadgets
           </a>
         </div>
 
