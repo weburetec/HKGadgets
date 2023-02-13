@@ -24,6 +24,16 @@ const Electronics = ({ user, products, store }) => {
 
       <RecentProducts products={products.slice(26,32)} />
 
+      <RecentProducts products={products.slice(0,6)} />
+
+      <OfferStyleOne />
+
+      <PopularProducts products={products.slice(0,6)} />
+
+      <FacilitySlider />
+
+      <BestSellingProducts products={products.slice(2,8)} />
+
       <div className='testimonials-section'>
         <Testimonials />
       </div>
