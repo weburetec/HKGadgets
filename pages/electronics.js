@@ -24,8 +24,6 @@ const Electronics = ({ user, products, store }) => {
 
       <RecentProducts products={products.slice(26,32)} />
 
-      <RecentProducts products={products.slice(0,6)} />
-
       <OfferStyleOne />
 
       <PopularProducts products={products.slice(0,6)} />
