@@ -26,10 +26,6 @@ const Electronics = ({ user, products, store }) => {
 
       <OfferStyleOne />
 
-      <PopularProducts products={products.slice(0,6)} />
-
-      <FacilitySlider />
-
       <BestSellingProducts products={products.slice(2,8)} />
 
       <div className='testimonials-section'>
