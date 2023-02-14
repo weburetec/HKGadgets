@@ -1,7 +1,7 @@
 import TopHeader from '../components/Layouts/TopHeader';
 import Navbar from '../components/Layouts/Navbar';
-import MainBanner from '../components/HomeOne/MainBanner';
-import CategoriesBanner from '../components/HomeOne/CategoriesBanner';
+import MainBanner from '../components/HomeElectronics/Banner';
+import CategoriesBanner from '../components/HomeElectronics/CategoryBanner';
 import RecentProducts from '../components/HomeOne/RecentProducts';
 import OfferStyleOne from '../components/Common/OfferStyleOne';
 import FacilitySlider from '../components/Common/FacilitySlider';
@@ -11,6 +11,11 @@ import InstagramFeed from '../components/Common/InstagramFeed';
 import Footer from '../components/Layouts/Footer';
 import PopularProducts from '../components/HomeOne/PopularProducts';
 import BestSellingProducts from '../components/HomeOne/BestSellingProducts';
+
+import Testimonials from '../components/HomeElectronics/Testimonials';
+import BlogPost from '../components/HomeElectronics/BlogPost';
+import InstagramFeed from '../components/Common/InstagramFeed';
+import RecentProducts from '../components/Shared/RecentProducts';
 
 import axios from 'axios';
 import baseUrl from '../utils/baseUrl';
@@ -36,6 +41,10 @@ const Index = ({user,products,store}) => {
       <FacilitySlider />
 
       <BestSellingProducts products={products.slice(2,8)} />
+
+      <div className='testimonials-section'>
+        <Testimonials />
+      </div>
 
       <Partner />
 
