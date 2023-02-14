@@ -13,7 +13,6 @@ import PopularProducts from '../components/HomeOne/PopularProducts';
 import BestSellingProducts from '../components/HomeOne/BestSellingProducts';
 import Testimonials from '../components/HomeElectronics/Testimonials';
 import BlogPost from '../components/HomeElectronics/BlogPost';
-import RecentProducts from '../components/Shared/RecentProducts';
 
 import axios from 'axios';
 import baseUrl from '../utils/baseUrl';
