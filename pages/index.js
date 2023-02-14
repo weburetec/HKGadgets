@@ -11,10 +11,8 @@ import InstagramFeed from '../components/Common/InstagramFeed';
 import Footer from '../components/Layouts/Footer';
 import PopularProducts from '../components/HomeOne/PopularProducts';
 import BestSellingProducts from '../components/HomeOne/BestSellingProducts';
-
 import Testimonials from '../components/HomeElectronics/Testimonials';
 import BlogPost from '../components/HomeElectronics/BlogPost';
-import InstagramFeed from '../components/Common/InstagramFeed';
 import RecentProducts from '../components/Shared/RecentProducts';
 
 import axios from 'axios';
