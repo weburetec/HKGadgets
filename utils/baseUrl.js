@@ -1,6 +1,6 @@
 const baseUrl =
   process.env.NODE_ENV === "production"
-    ? "https://hk-gadgets.vercel.app"
+    ? "https://www.hkgadgets.com"
     : "http://localhost:3000";
 
 export default baseUrl;
